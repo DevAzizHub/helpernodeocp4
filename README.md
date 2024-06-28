@@ -91,20 +91,3 @@ You can run this script and it's options to display helpful information about th
 Now you're ready to follow the [OCP4 UPI install doc](https://docs.openshift.com/container-platform/latest/installing/installing_bare_metal/installing-bare-metal.html#ssh-agent-using_installing-bare-metal)
 
 
-# Quickstarts
-
-The following are quickstarts. These are written using libvirt, but are generic enough to be used in BareMetal or other Virtualized Environments.
-
-
-* Bare Metal DHCP install [quickstart](docs/bmquickstart.md)
-* Bare Metal Static IPs install [quickstart](docs/bmquickstart-static.md)
-* Libvirt DHCP install [quickstart](docs/quickstart.md)
-* Libvirt Static IPs install [quickstart](docs/quickstart-static.md)
-* DHCP install on KVM/Power [quickstart](docs/quickstart-ppc64le.md)
-* DHCP install on PowerVM [quickstart](docs/quickstart-powervm.md)
-* OCP4 on VMware vSphere UPI Automation [quickstart](https://github.com/RedHatOfficial/ocp4-vsphere-upi-automation)
-* A Video "how-to" done on a [Twitch Stream](docs/yt-twitch.md)
-
-# Contributing
-
-Please see the [contributing doc](docs/contribute.md) for more details.
