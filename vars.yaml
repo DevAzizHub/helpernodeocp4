@@ -1,0 +1,28 @@
+---
+disk: vda
+helper:
+  name: "helper"
+  ipaddr: "10.255.253.240"
+dns:
+  domain: "devops.lan"
+  clusterid: "ocp4"
+  forwarder1: "8.8.8.8"
+  forwarder2: "10.255.253.10"
+bootstrap:
+  name: "bootstrap"
+  ipaddr: "10.255.253.241"
+masters:
+  - name: "master1"
+    ipaddr: "10.255.253.242"
+  - name: "master2"
+    ipaddr: "10.255.253.243"
+  - name: "master3"
+    ipaddr: "10.255.253.244"
+workers:
+  - name: "worker1"
+    ipaddr: "10.255.253.245"
+  - name: "worker2"
+    ipaddr: "10.255.253.246"
+  - name: "worker3"
+    ipaddr: "10.255.253.247"
+
