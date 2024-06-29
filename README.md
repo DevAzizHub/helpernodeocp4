@@ -51,7 +51,6 @@ Next install `ansible` and `git`, then clone this repo.
 ```
 yum -y install ansible git
 git clone https://github.com/DevAzizHub/helpernodeocp4.git
-cd ocp4-helpernode
 ```
 
 ## Setup your Environment Vars
