@@ -41,9 +41,6 @@ Install a CentOS 7 or CentOS 8 server with this recommended setup:
 * 30GB HD
 * Static IP
 
-There is a sample kickstart file for [EL 7](docs/examples/helper-ks.cfg) and [EL 8](docs/examples/helper-ks8.cfg) that is used during testing, if you'd like to automate the initial install of the OS.
-
-Once the base OS is installed, install [EPEL](https://fedoraproject.org/wiki/EPEL)
 
 ```
 yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-$(rpm -E %rhel).noarch.rpm
